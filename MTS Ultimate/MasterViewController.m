@@ -10,6 +10,8 @@
 
 #import "DetailViewController.h"
 
+// This is a class extension and allows for private atributes and methods for the class
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }

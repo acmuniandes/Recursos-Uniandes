@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>101</string>
+		<key>estado</key>
+		<string>ocupada</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>102</string>
+		<key>estado</key>
+		<string>ocupada</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>103</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>104</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>201</string>
+		<key>estado</key>
+		<string>ocupada</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>202</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>203</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>204</string>
+		<key>estado</key>
+		<string>ocupada</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>301</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Mario Laserna</string>
+		<key>nombre</key>
+		<string>402</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Santo Domingo</string>
+		<key>nombre</key>
+		<string>501</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Santo Domingo</string>
+		<key>nombre</key>
+		<string>502</string>
+		<key>estado</key>
+		<string>libre</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>Santo Domingo</string>
+		<key>nombre</key>
+		<string>601</string>
+		<key>estado</key>
+		<string>ocupada</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>May the Force be with you.</string>
+		<key>estado</key>
+		<string>Star wars</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Hasta la vista, baby</string>
+		<key>estado</key>
+		<string>Terminator</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>I feel the need for speed.</string>
+		<key>estado</key>
+		<string>Top Gun</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>She doesn&apos;t even go here.</string>
+		<key>estado</key>
+		<string>Mean Girls</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.</string>
+		<key>estado</key>
+		<string>Harry Potter</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>I solemnly swear that I am up to no good.</string>
+		<key>estado</key>
+		<string>Harry Potter</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>You like pain? Try wearing a corset.</string>
+		<key>estado</key>
+		<string>Pirates of the Carribean</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Houston, we have a problem.</string>
+		<key>estado</key>
+		<string>Apollo 13</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>I&apos;ll be back.</string>
+		<key>estado</key>
+		<string>The Terminator</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>E.T. phone home.</string>
+		<key>estado</key>
+		<string>E.T.</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Why are you trying so hard to fit in when you were born to stand out?</string>
+		<key>estado</key>
+		<string>What a girl wants</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Watch you talkin about Willis?</string>
+		<key>estado</key>
+		<string>Different Strokes</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>The plane, the plane</string>
+		<key>estado</key>
+		<string>Fantasy Island</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>D&apos;oh</string>
+		<key>estado</key>
+		<string>The Simpsons</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Kids, you tried your best and you failed miserably. The lesson is, never try.</string>
+		<key>estado</key>
+		<string>The Simpsons</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>You don’t win friends with salad.</string>
+		<key>estado</key>
+		<string>The Simpsons</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Whoever said that money doesn&apos;t buy happiness didn&apos;t know where to shop.</string>
+		<key>estado</key>
+		<string>Gossip Girl</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>If I were you, I&apos;d accessorize with some gloves. Even a manicure can&apos;t mask those peasant hands.</string>
+		<key>estado</key>
+		<string>Gossip Girl</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>I tried to be diplomatic, but mostly I just lied a lot.</string>
+		<key>estado</key>
+		<string>Twilight</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>Once people start throwing wet stuff, I go inside.</string>
+		<key>estado</key>
+		<string>Twilight</string>
+	</dict>
+	<dict>
+		<key>Edificio</key>
+		<string>modern</string>
+		<key>nombre</key>
+		<string>I don’t like to lie – so there’d better be a good reason why I’m doing it..</string>
+		<key>estado</key>
+		<string>Twilight</string>
+	</dict>
+</array>
+</plist>

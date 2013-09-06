@@ -2,16 +2,21 @@
 //  AppDelegate.m
 //  MTS Ultimate
 //
-//  Created by Felipe Macbook Pro on 8/29/13.
+//  Created by FMTS Ultimate Groupelipe Macbook Pro on 8/29/13.
 //  Copyright (c) 2013 Felipe Macbook Pro. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "BTTheme.h"
+#import "BTDefaultTheme.h"
+#import "BTForestTheme.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BTThemeManager setSharedTheme:[BTForestTheme new]];
+    
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
@@ -19,6 +24,8 @@
         splitViewController.delegate = (id)navigationController.topViewController;
     }
     return YES;
+    
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -46,6 +53,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)customizeAppearance
+{
+    // Create resizable images
+    UIImage *gradientImage44 = [[UIImage imageNamed:@"surf_gradient_textured_44"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    UIImage *gradientImage32 = [[UIImage imageNamed:@"surf_gradient_textured_32"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    
+    // Set the background image for *all* UINavigationBars
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage44
+                                       forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage32
+                                       forBarMetrics:UIBarMetricsLandscapePhone];
+    
+    // Customize the title text for *all* UINavigationBars
+
 }
 
 @end
