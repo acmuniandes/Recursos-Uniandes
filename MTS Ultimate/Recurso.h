@@ -10,7 +10,7 @@
 
 @interface Recurso : NSObject
 {
-    //Declaracion variables sin propiedad
+    //Declaracion variables sin propiedad por ser primitive type
     NSInteger capacidad;
 }
 

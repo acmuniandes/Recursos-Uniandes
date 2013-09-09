@@ -10,12 +10,25 @@
 #import "BTTheme.h" 
 #import "BTDefaultTheme.h" 
 
+//Constants are not declared in the class extension? Interesting...
+
+    NSString *const imagen1 = @"surf_gradient_textured_44 copy.png";
+    NSString *const imagen2 = @"g1.png";
+    NSString *const imagen3 = @"g2.png";
+
+    //Constantes para imagenes del fondo de la TABLA
+    NSString *const fondo = @"fondo.jpg";
+    NSString *const carbono = @"fibra-carbono.jpg";
+
+
 @implementation BTForestTheme
 
 - (UIColor*)backgroundColor
 {
+    //For using an image as a background patterned-color
     return [UIColor colorWithPatternImage:
-            [UIImage imageNamed:@"bg_forest.png"]];
+            [UIImage imageNamed:fondo]];
+    
 }
 
 //Navigation below
@@ -23,7 +36,7 @@
 //The image for this theme of the navigation bar in portrait
 - (UIImage*)imageForNavigationBar
 {
-    return [[UIImage imageNamed:@"g1.png"]
+    return [[UIImage imageNamed:imagen3]
             resizableImageWithCapInsets:UIEdgeInsetsMake( 0.0, 100.0, 0.0, 100.0)];
 }
 
@@ -38,10 +51,15 @@
 //Test for the tool bar
 - (UIImage*) imageForToolBar
 {
-    return [[UIImage imageNamed:@"g2.png"]
+    return [[UIImage imageNamed:imagen3]
             resizableImageWithCapInsets:UIEdgeInsetsMake(0.0, 100.0, 0.0, 100.0)];
 }
 
+//Test for the table background color, may use the trick for image
+- (UIColor*)colorForTableBackground
+{
+    return [UIColor colorWithPatternImage:[UIImage imageNamed:fondo]];
+}
 
 //This dictorionary sets the font, color and size
 - (NSDictionary*)navBarTextDictionary

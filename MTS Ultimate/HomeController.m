@@ -9,6 +9,8 @@
 #import "HomeController.h"
 #import "SimpleTableCell.h"
 #import "DetailHomeControllerViewController.h"
+#import "TutorialAnimationControllerViewController.h"
+
 
 @interface HomeController ()
 {
@@ -19,6 +21,9 @@
     Recurso *rec3;
     Recurso *rec4;
     
+    //Testing
+    NSTimer *tutorial;
+    AVAudioPlayer *click;
 }
 
 @end
@@ -38,6 +43,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Testing area--------------------------------------------------\\
+    
+    //Despliega de nuevo los elementos del nav-bar y tool-bar. Esto se me hace como mal codigo :/ pero bueno
+    [self.navigationController.navigationBar setHidden:NO];
+    [self.navigationController.toolbar setHidden:NO];
+    
+    //Table separator
+    //[self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    
+    //Sound file
+    NSURL *musicFile = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                               pathForResource:@"tap"
+                                               ofType:@"wav"]];
+    click = [[AVAudioPlayer alloc] initWithContentsOfURL:musicFile error:nil];
+    [click prepareToPlay];
+    
+    //---------------------------------------------------------------\\
     
     NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"Salas" ofType:@"plist"];
     archivo = [NSMutableArray arrayWithContentsOfFile:plistCatPath];
@@ -59,11 +82,16 @@
     
     UIRefreshControl *refreshControl = [[UIRefreshControl alloc]
                                         init];
-    // refreshControl.tintColor = [UIColormagentaColor alloc];
+    //refreshControl.tintColor = [UIColor blueColor];
     [refreshControl addTarget:self action:@selector(changeSorting) forControlEvents:UIControlEventValueChanged];
     self.refreshControl = refreshControl;
     
-    
+    //prueba para la parte del tutorial
+    if(primeraVez == NO)
+    {
+   // tutorial = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(cargarTutorial) userInfo:nil repeats:NO];
+        primeraVez = NO;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -76,7 +104,6 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
@@ -184,7 +211,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"detailView"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+  //      NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        [segue destinationViewController];
+    }
+    if ([[segue identifier] isEqualToString:@"Tutorial"]) {
         [segue destinationViewController];
     }
 }
@@ -226,6 +256,14 @@
     [self.tableView reloadData];
     
     [self.refreshControl endRefreshing];
+    
+    [click play];
+}
+
+- (void)cargarTutorial
+{
+    TutorialAnimationControllerViewController *animationViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Tutorial"];
+    [self.navigationController pushViewController:animationViewController animated:YES];
 }
 
 -(void)cargarDatos

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3830DC17DC35E7006931B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3830DB17DC35E7006931B8 /* AVFoundation.framework */; };
+		9F3830E017DC3796006931B8 /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F3830DF17DC3796006931B8 /* tap.wav */; };
+		9F5730AE17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5730AD17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m */; };
 		9F58F15F17D1A13300958E2C /* Sala.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58F15E17D1A13300958E2C /* Sala.m */; };
 		9F58F16117D1A2C300958E2C /* Salas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F58F16017D1A2C300958E2C /* Salas.plist */; };
 		9F6080DE17D04AED00561EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6080DD17D04AED00561EED /* UIKit.framework */; };
@@ -17,7 +20,6 @@
 		9F6080EE17D04AED00561EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080ED17D04AED00561EED /* AppDelegate.m */; };
 		9F6080F017D04AED00561EED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080EF17D04AED00561EED /* Default.png */; };
 		9F6080F217D04AED00561EED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080F117D04AED00561EED /* Default@2x.png */; };
-		9F6080F417D04AED00561EED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080F317D04AED00561EED /* Default-568h@2x.png */; };
 		9F6080F717D04AED00561EED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080F517D04AED00561EED /* MainStoryboard_iPhone.storyboard */; };
 		9F6080FA17D04AED00561EED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080F817D04AED00561EED /* MainStoryboard_iPad.storyboard */; };
 		9F6080FD17D04AED00561EED /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6080FC17D04AED00561EED /* MasterViewController.m */; };
@@ -30,6 +32,10 @@
 		9F60812017D04CAE00561EED /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60811F17D04CAE00561EED /* HomeController.m */; };
 		9F60812317D04CFD00561EED /* Recurso.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F60812217D04CFD00561EED /* Recurso.m */; };
 		9F6C360217D57151007F4275 /* Micros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C360117D57151007F4275 /* Micros.plist */; };
+		9F76D1C717DBEFA4006FC880 /* Logo Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76D1C617DBEFA4006FC880 /* Logo Final.png */; };
+		9F76D1CA17DBF1EA006FC880 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6080F317D04AED00561EED /* Default-568h@2x.png */; };
+		9F76D1D017DC009D006FC880 /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F76D1CF17DC009D006FC880 /* fondo.jpg */; };
+		9F76D1D217DC0190006FC880 /* fibra-carbono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F76D1D117DC0190006FC880 /* fibra-carbono.jpg */; };
 		9F9ED8AF17D18B0C00E5211E /* DetailHomeControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9ED8AE17D18B0C00E5211E /* DetailHomeControllerViewController.m */; };
 		9FC1750F17D163640072D570 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC1750E17D163640072D570 /* SimpleTableCell.xib */; };
 		9FC1751517D1691D0072D570 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1751417D1691D0072D570 /* SimpleTableCell.m */; };
@@ -58,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3830DB17DC35E7006931B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F3830DF17DC3796006931B8 /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
+		9F5730AC17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialAnimationControllerViewController.h; sourceTree = "<group>"; };
+		9F5730AD17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialAnimationControllerViewController.m; sourceTree = "<group>"; };
 		9F58F15D17D1A13300958E2C /* Sala.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sala.h; sourceTree = "<group>"; };
 		9F58F15E17D1A13300958E2C /* Sala.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sala.m; sourceTree = "<group>"; };
 		9F58F16017D1A2C300958E2C /* Salas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Salas.plist; sourceTree = "<group>"; };
@@ -91,6 +101,9 @@
 		9F60812117D04CFD00561EED /* Recurso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recurso.h; sourceTree = "<group>"; };
 		9F60812217D04CFD00561EED /* Recurso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recurso.m; sourceTree = "<group>"; };
 		9F6C360117D57151007F4275 /* Micros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Micros.plist; sourceTree = "<group>"; };
+		9F76D1C617DBEFA4006FC880 /* Logo Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo Final.png"; path = "../Logo Final.png"; sourceTree = "<group>"; };
+		9F76D1CF17DC009D006FC880 /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
+		9F76D1D117DC0190006FC880 /* fibra-carbono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fibra-carbono.jpg"; sourceTree = "<group>"; };
 		9F9ED8AD17D18B0C00E5211E /* DetailHomeControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailHomeControllerViewController.h; sourceTree = "<group>"; };
 		9F9ED8AE17D18B0C00E5211E /* DetailHomeControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailHomeControllerViewController.m; sourceTree = "<group>"; };
 		9FC1750E17D163640072D570 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
@@ -118,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3830DC17DC35E7006931B8 /* AVFoundation.framework in Frameworks */,
 				9F6080DE17D04AED00561EED /* UIKit.framework in Frameworks */,
 				9F6080E017D04AED00561EED /* Foundation.framework in Frameworks */,
 				9F6080E217D04AED00561EED /* CoreGraphics.framework in Frameworks */,
@@ -140,6 +154,7 @@
 		9F6080D117D04AED00561EED = {
 			isa = PBXGroup;
 			children = (
+				9F3830DB17DC35E7006931B8 /* AVFoundation.framework */,
 				9F6080E317D04AED00561EED /* MTS Ultimate */,
 				9F60810D17D04AED00561EED /* MTS UltimateTests */,
 				9F6080DC17D04AED00561EED /* Frameworks */,
@@ -232,6 +247,8 @@
 				9F6080F817D04AED00561EED /* MainStoryboard_iPad.storyboard */,
 				9F6080EC17D04AED00561EED /* AppDelegate.h */,
 				9F6080ED17D04AED00561EED /* AppDelegate.m */,
+				9F5730AC17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.h */,
+				9F5730AD17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -250,6 +267,10 @@
 		9FC1751617D1775D0072D570 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				9F3830DF17DC3796006931B8 /* tap.wav */,
+				9F76D1D117DC0190006FC880 /* fibra-carbono.jpg */,
+				9F76D1CF17DC009D006FC880 /* fondo.jpg */,
+				9F76D1C617DBEFA4006FC880 /* Logo Final.png */,
 				9FD0B59717D838900055BB16 /* g1.png */,
 				9FD0B59817D838900055BB16 /* g2.png */,
 				9FDA344C17D1B6140033ED6E /* gimnasio.png */,
@@ -350,7 +371,6 @@
 				9F6080E817D04AED00561EED /* InfoPlist.strings in Resources */,
 				9F6080F017D04AED00561EED /* Default.png in Resources */,
 				9F6080F217D04AED00561EED /* Default@2x.png in Resources */,
-				9F6080F417D04AED00561EED /* Default-568h@2x.png in Resources */,
 				9F6080F717D04AED00561EED /* MainStoryboard_iPhone.storyboard in Resources */,
 				9F6080FA17D04AED00561EED /* MainStoryboard_iPad.storyboard in Resources */,
 				9FC1750F17D163640072D570 /* SimpleTableCell.xib in Resources */,
@@ -365,6 +385,11 @@
 				9F6C360217D57151007F4275 /* Micros.plist in Resources */,
 				9FD0B59917D838900055BB16 /* g1.png in Resources */,
 				9FD0B59A17D838900055BB16 /* g2.png in Resources */,
+				9F76D1C717DBEFA4006FC880 /* Logo Final.png in Resources */,
+				9F76D1CA17DBF1EA006FC880 /* Default-568h@2x.png in Resources */,
+				9F76D1D017DC009D006FC880 /* fondo.jpg in Resources */,
+				9F76D1D217DC0190006FC880 /* fibra-carbono.jpg in Resources */,
+				9F3830E017DC3796006931B8 /* tap.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +436,7 @@
 				9FEF476A17D6AEFF00758D9C /* BTTheme.m in Sources */,
 				9FEF476D17D6B25500758D9C /* BTDefaultTheme.m in Sources */,
 				9FEF477017D6B64B00758D9C /* BTForestTheme.m in Sources */,
+				9F5730AE17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,12 +12,18 @@
 
 @interface DetailHomeControllerViewController : UITableViewController
 
+//Properties
 @property (strong, nonatomic) id detailItem;
 @property (nonatomic, strong) Recurso *recurso;
 @property (nonatomic, strong) NSArray *salas;
 
+//Methods
 - (void)asignarRecurso: (Recurso *)rec;
 - (id)initWithStyle:(UITableViewStyle)style;
 - (void)setDetailItem:(id)newDetailItem;
+
+//Actions
+
+//Outlets
 
 @end
