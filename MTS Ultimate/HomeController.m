@@ -11,7 +11,7 @@
 #import "DetailHomeControllerViewController.h"
 #import "TutorialAnimationControllerViewController.h"
 
-
+//Class extension
 @interface HomeController ()
 {
     NSArray *imagenes;
@@ -42,6 +42,7 @@
 
 - (void)viewDidLoad
 {
+    //When the view loads
     [super viewDidLoad];
     
     //Testing area--------------------------------------------------\\
@@ -114,6 +115,7 @@
     return 4;
 }
 
+//Creates a new cell for each row specified by numberOfRowsInSection
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"SimpleTableCell";
@@ -184,6 +186,7 @@
 
 #pragma mark - Table view delegate
 
+//Selecting an item of the table
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
@@ -208,6 +211,7 @@
 
 }
 
+//Allows the app-delegate to prepare for the segues declared by their identifiers. This allows for the custom animations.
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"detailView"]) {
@@ -219,7 +223,7 @@
     }
 }
 
-
+//Loads the Recursos within the app
 -(void)cargarRecursos
 {
         self->rec1 = [[Recurso alloc] initWithParameter:@"Salas de Estudio" andWithB:5];
@@ -231,11 +235,13 @@
         [self cargarDatos];
 }
 
+//Cell height in pixels
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 70;
 }
 
+//Methods for assinging a random value for the capacity of each Recurso. 
 - (void)changeSorting
 {
     NSInteger random = (arc4random() % 30) - 20;
@@ -250,6 +256,7 @@
                afterDelay:1];
 }
 
+//Updates the data of the table
 - (void)updateTable
 {
     
@@ -260,12 +267,14 @@
     [click play];
 }
 
+//Loads the tutorial by creating the TutorialAnimation-view and then pushing the controller
 - (void)cargarTutorial
 {
     TutorialAnimationControllerViewController *animationViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Tutorial"];
     [self.navigationController pushViewController:animationViewController animated:YES];
 }
 
+//Loads the data from the plist-files for the 
 -(void)cargarDatos
 {
     NSString *selectedCategory = @"Mario Laserna";
@@ -293,6 +302,7 @@
     
 }
 
+//Adds the notificaction using a timer to fire 
 -(void)notificarMe:(id)sender
 {
     

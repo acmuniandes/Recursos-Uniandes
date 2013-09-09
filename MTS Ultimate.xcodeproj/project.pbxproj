@@ -154,7 +154,6 @@
 		9F6080D117D04AED00561EED = {
 			isa = PBXGroup;
 			children = (
-				9F3830DB17DC35E7006931B8 /* AVFoundation.framework */,
 				9F6080E317D04AED00561EED /* MTS Ultimate */,
 				9F60810D17D04AED00561EED /* MTS UltimateTests */,
 				9F6080DC17D04AED00561EED /* Frameworks */,
@@ -174,6 +173,7 @@
 		9F6080DC17D04AED00561EED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F3830DB17DC35E7006931B8 /* AVFoundation.framework */,
 				9F6080DD17D04AED00561EED /* UIKit.framework */,
 				9F6080DF17D04AED00561EED /* Foundation.framework */,
 				9F6080E117D04AED00561EED /* CoreGraphics.framework */,

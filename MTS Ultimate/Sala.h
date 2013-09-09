@@ -13,13 +13,18 @@
     BOOL ocupada;
 }
 
+//Properties
 @property (nonatomic, strong)NSString *nombre;
 
+//Methods
 -(void)cambiarEstado;
 -(BOOL)darEstado;
 -(NSString *)darNombre;
 
 -(id)initWithParameter: (NSString *)nNombre andWithB:(BOOL)estado;
 
+//Actions
+
+//Outlets
 
 @end

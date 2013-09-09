@@ -10,6 +10,7 @@
 
 @implementation Recurso
 
+//Custom intializer for a Recurso
 -(id)initWithParameter: (NSString *)nNombre andWithB:(NSInteger)entero
 {
     if(self = [super init])
@@ -21,6 +22,8 @@
     return self;
 }
 
+
+//Setters and getter below
 -(NSString *)darNombre
 {
     return self.nombre;
