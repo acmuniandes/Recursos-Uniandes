@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0790B34F182B39BF009CC5CC /* F.png in Resources */ = {isa = PBXBuildFile; fileRef = 0790B34E182B39BF009CC5CC /* F.png */; };
 		9F00BA341809D973001469A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00BA331809D973001469A0 /* Foundation.framework */; };
 		9F00BA361809D973001469A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00BA351809D973001469A0 /* CoreGraphics.framework */; };
 		9F00BA381809D973001469A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00BA371809D973001469A0 /* UIKit.framework */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0790B34E182B39BF009CC5CC /* F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F.png; sourceTree = "<group>"; };
 		9F00BA301809D973001469A0 /* Recursos Uniandes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recursos Uniandes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F00BA331809D973001469A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F00BA351809D973001469A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -335,6 +337,7 @@
 				9F1D0DEE18206A21004C3586 /* cut.png */,
 				9F1D0DEC18206611004C3586 /* sala.png */,
 				9F1D0DEA1820655D004C3586 /* o.png */,
+				0790B34E182B39BF009CC5CC /* F.png */,
 				9F1D0DE81820650C004C3586 /* sd.png */,
 				9F1D0DE6182064D4004C3586 /* clinica.png */,
 				9F1D0DE4182064A0004C3586 /* ml.png */,
@@ -452,6 +455,7 @@
 				9FDD5170181DCECF001C06E0 /* led-r.png in Resources */,
 				9FDD5171181DCECF001C06E0 /* led-r1.png in Resources */,
 				9F53C5FD181F0F8700EB2C70 /* TableHeader.xib in Resources */,
+				0790B34F182B39BF009CC5CC /* F.png in Resources */,
 				9F00BA471809D973001469A0 /* Main_iPhone.storyboard in Resources */,
 				9F1D0DEB1820655D004C3586 /* o.png in Resources */,
 				9F7FF3D31820735F00B56D47 /* g5.png in Resources */,

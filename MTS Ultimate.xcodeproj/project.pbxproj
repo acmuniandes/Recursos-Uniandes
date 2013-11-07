@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AC50CA17E8AE6300C1A20B /* CarlosTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC50C917E8AE6300C1A20B /* CarlosTheme.m */; };
 		9F3830DC17DC35E7006931B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3830DB17DC35E7006931B8 /* AVFoundation.framework */; };
 		9F3830E017DC3796006931B8 /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F3830DF17DC3796006931B8 /* tap.wav */; };
 		9F5730AE17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5730AD17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m */; };
@@ -64,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AC50C817E8AE6300C1A20B /* CarlosTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarlosTheme.h; sourceTree = "<group>"; };
+		07AC50C917E8AE6300C1A20B /* CarlosTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarlosTheme.m; sourceTree = "<group>"; };
 		9F3830DB17DC35E7006931B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9F3830DF17DC3796006931B8 /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
 		9F5730AC17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialAnimationControllerViewController.h; sourceTree = "<group>"; };
@@ -293,6 +296,8 @@
 				9FEF476C17D6B25500758D9C /* BTDefaultTheme.m */,
 				9FEF476E17D6B64B00758D9C /* BTForestTheme.h */,
 				9FEF476F17D6B64B00758D9C /* BTForestTheme.m */,
+				07AC50C817E8AE6300C1A20B /* CarlosTheme.h */,
+				07AC50C917E8AE6300C1A20B /* CarlosTheme.m */,
 			);
 			name = Theme;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 				9FEF476D17D6B25500758D9C /* BTDefaultTheme.m in Sources */,
 				9FEF477017D6B64B00758D9C /* BTForestTheme.m in Sources */,
 				9F5730AE17DADDEA007B8AC8 /* TutorialAnimationControllerViewController.m in Sources */,
+				07AC50CA17E8AE6300C1A20B /* CarlosTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

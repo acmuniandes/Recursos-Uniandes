@@ -10,12 +10,13 @@
 #import "BTTheme.h"
 #import "BTDefaultTheme.h"
 #import "BTForestTheme.h"
+#import "CarlosTheme.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [BTThemeManager setSharedTheme:[BTForestTheme new]];
+    [BTThemeManager setSharedTheme:[CarlosTheme new]];
     
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {

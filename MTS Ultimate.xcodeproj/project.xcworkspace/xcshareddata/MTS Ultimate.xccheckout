@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F41AC8B-2743-4C6F-AC33-13C349CA55AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MTS Ultimate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80BBA00F-537B-40CB-B60B-A69C5872744B</key>
+		<string>https://github.com/acmuniandes/Recursos-Uniandes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MTS Ultimate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80BBA00F-537B-40CB-B60B-A69C5872744B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acmuniandes/Recursos-Uniandes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>80BBA00F-537B-40CB-B60B-A69C5872744B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80BBA00F-537B-40CB-B60B-A69C5872744B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Recursos-Uniandes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
